@@ -18,6 +18,8 @@ set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 #  "${PROJECT_BINARY_DIR}/config.h"
 #)
 
+cmake_policy(SET CMP0028 OLD)
+
 ##############################################################
 ###    Macros                                              ###
 ##############################################################
