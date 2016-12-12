@@ -64,6 +64,9 @@ add_subdirectory(magnummsh/swig)
 ###    Set Compiler Flags                                  ###
 ##############################################################
 
+# activate C++2011 standard
+set (CMAKE_CXX_STANDARD 11)
+
 # Compiler definitions
 add_definitions(${DOLFIN_CXX_DEFINITIONS})
 
